@@ -53,9 +53,9 @@ function YourLinks() {
     return (
         <div className='h-fit bg-black text-white text-center py-8'>
             {/* A little guide for users */}
-            <div className="mb-12 md:mb-24 p-3  text-gray-400 rounded-md border-gray-700 shadow-md shadow-gray-500 w-[90%] md:w-1/2 m-auto">
+            <div className="mb-12 md:mb-24 p-3  text-gray-400 rounded-md border-gray-700 shadow-md shadow-gray-500 w-[90%] md:w-1/4 m-auto">
                 <p className="text-gray-300 text-xs md:text-base">
-                    If you&apos;d like to open your links directly, you can click on them below. Otherwise, copy all your links in just one click and share it wherever you want :)
+                    Your Socials
                 </p>
             </div>
             {/* Container for all the generated links */}
