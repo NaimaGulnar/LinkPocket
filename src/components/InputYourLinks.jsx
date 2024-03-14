@@ -19,8 +19,8 @@ export default function InputYourLinks() {
     return (
         <div className='h-fit bg-black text-white text-center py-8'>
             {/* A little guide for users */}
-            <div className="mb-12 md:mb-24 p-3  text-gray-400 rounded-md border-gray-700 shadow-md shadow-gray-500 w-[90%] md:w-1/3 m-auto">
-                <p className="text-gray-300 text-xs md:text-base">Enter your Social Media <span className="font-bold">Username</span>
+            <div className="mb-12 md:mb-24 p-3  text-gray-400 rounded-md border-gray-700 shadow-md shadow-gray-500 w-[90%] md:w-1/2 m-auto">
+                <p className="text-gray-300 text-lg md:text-2xl">Enter your Social Media <span className="font-bold">Username</span>
                     <br />
                     And click on &quot;Generate&quot;
                 </p>
@@ -28,16 +28,16 @@ export default function InputYourLinks() {
             {/* Container for all the input fields */}
             <div className='flex flex-wrap justify-center items-center gap-5 mt-8'>
                 {/* Rendering the input fields for different social media links by passing Icon, value, and onChange as props to "InputField" component */}
-                <InputField Icon={FaFacebook} value={facebook} onChange={(e) => setFacebook(e.target.value)} />
-                <InputField Icon={FaInstagram} value={instagram} onChange={(e) => setInstagram(e.target.value)} />
-                <InputField Icon={FaXTwitter} value={X} onChange={(e) => setX(e.target.value)} />
-                <InputField Icon={FaLinkedin} value={linkedin} onChange={(e) => setLinkedin(e.target.value)} />
-                <InputField Icon={FaGithub} value={github} onChange={(e) => setGithub(e.target.value)} />
-                <InputField Icon={FaYoutube} value={youtube} onChange={(e) => setYoutube(e.target.value)} />
-                <InputField Icon={FaTelegramPlane} value={telegram} onChange={(e) => setTelegram(e.target.value)} />
-                <InputField Icon={FaDiscord} value={discord} onChange={(e) => setDiscord(e.target.value)} />
-                <InputField Icon={FaMedium} value={medium} onChange={(e) => setMedium(e.target.value)} />
-                <InputField Icon={FaQuora} value={quora} onChange={(e) => setQuora(e.target.value)} />
+                <InputField Icon={FaFacebook} value={facebook} onChange={(e) => setFacebook(e.target.value)} placeholder="Enter Your Facebook Username..."/>
+                <InputField Icon={FaInstagram} value={instagram} onChange={(e) => setInstagram(e.target.value)} placeholder="Enter Your Instagram Username..." />
+                <InputField Icon={FaXTwitter} value={X} onChange={(e) => setX(e.target.value)} placeholder="Enter Your Twitter Username..." />
+                <InputField Icon={FaLinkedin} value={linkedin} onChange={(e) => setLinkedin(e.target.value)} placeholder="Enter Your LinkedIn Username..." />
+                <InputField Icon={FaGithub} value={github} onChange={(e) => setGithub(e.target.value)} placeholder="Enter Your GitHub Username..." />
+                <InputField Icon={FaYoutube} value={youtube} onChange={(e) => setYoutube(e.target.value)} placeholder="Enter Your YouTube Username..." />
+                <InputField Icon={FaTelegramPlane} value={telegram} onChange={(e) => setTelegram(e.target.value)} placeholder="Enter Your Telegram Username..." />
+                <InputField Icon={FaDiscord} value={discord} onChange={(e) => setDiscord(e.target.value)} placeholder="Enter Your Discord User ID..." />
+                <InputField Icon={FaMedium} value={medium} onChange={(e) => setMedium(e.target.value)} placeholder="Enter Your Medium Username..." />
+                <InputField Icon={FaQuora} value={quora} onChange={(e) => setQuora(e.target.value)} placeholder="Enter Your Quora Username..." />
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center gap-5">
                 {/* Button to navigate back to "Home" component */}

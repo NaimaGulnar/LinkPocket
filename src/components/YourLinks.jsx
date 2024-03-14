@@ -54,7 +54,7 @@ function YourLinks() {
         <div className='h-fit bg-black text-white text-center py-8'>
             {/* A little guide for users */}
             <div className="mb-12 md:mb-24 p-3  text-gray-400 rounded-md border-gray-700 shadow-md shadow-gray-500 w-[90%] md:w-1/4 m-auto">
-                <p className="text-gray-300 text-xs md:text-base">
+                <p className="text-gray-300 text-lg md:text-2xl">
                     Your Socials
                 </p>
             </div>
